@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 40px 0px 30px;
+}
+
+.container {
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 70px 30px;
+}
+
+.navbar,
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    margin: 10px 30px;
+}
+
+.heading {
+    margin: 40px 30px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text,
+ul li {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+.hero-image-container img {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.feature-list-wrapper {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 60px;
+}
+
+.feature-box img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 20px;
+    border:3px solid #3882F6;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.feature-box p {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 50px 0px;
+}
+
+.quote p {
+    width: 900px;
+    margin: auto;
+}
+
+.testifier {
+    text-align: right;
+    font-weight: 600;
+}
+
+.fourth-container {
+    margin: 60px 0px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 40px 70px;
+    border-radius: 3px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 24px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    text-align: center;
+}
